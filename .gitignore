@@ -3,3 +3,13 @@ logs/*
 data/*
 .DS_Store
 *.pyc
+
+*.pjs~
+
+profiles_backup/dlg.pjs
+
+profiles_backup/scdl-charleston.pjs
+
+profiles_backup/scdl-clemson.pjs
+
+profiles_backup/scdl-usc.pjs

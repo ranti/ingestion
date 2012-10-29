@@ -2,12 +2,14 @@
     "enrichments_rec": [
         "http://localhost:8889/geocode?prop=coverage&newprop=coverage_geo", 
         "http://localhost:8889/shred?prop=subject&delim=%3b", 
-        "http://camp.dpla.berkman.temphost.net:5931/dpla"
+        "http://localhost:8889/oai-to-dpla", 
+        "http://camp.dpla.berkman.temphost.net:5931/jefftest"
     ], 
     "enrichments_coll": [
-        "http://camp.dpla.berkman.temphost.net:5931/dpla"
+        "http://camp.dpla.berkman.temphost.net:5931/jefftest"
     ], 
     "endpoint_URL": "http://localhost:8889/oai.listrecords.json?endpoint=http://repository.clemson.edu/cgi-bin/oai.exe&oaiset=", 
+    "last_checked": "2012-10-26T14:36:01.239864", 
     "subresources": [
         "gmb", 
         "ctm", 
@@ -23,6 +25,8 @@
         "ghs", 
         "wsb", 
         "mbe", 
-        "gcj"
+        "gcj", 
+        "cwp", 
+        "nev"
     ]
 }
